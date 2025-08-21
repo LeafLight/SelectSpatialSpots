@@ -3,7 +3,7 @@ title: SSS for Select Spatial Spots
 tags: ["Spatial Transcriptome", "Bioinformatics", "Data Analysis"]
 date: 2025-08-22 01:00:50
 ---
-![logo](./.gitignore/logo.png)
+![logo](./src/logo.png)
 # Abstract
 It is a _____Dash__ app for Spatial Transcriptome Analysis, especially the part of selecting spots of interest interactively. You can get a spots assignment csv for downstream analysis.
 
