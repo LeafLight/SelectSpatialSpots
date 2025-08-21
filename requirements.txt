@@ -1,0 +1,4 @@
+dash==3.0.4
+pandas==2.1.4
+Pillow==11.3.0
+plotly==5.24.1
