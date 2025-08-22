@@ -1,0 +1,88 @@
+body {
+    font-size: 24px;   /* 全局字体大小 */
+    font-family: Skia, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.dash-table-container .dash-spreadsheet-container {
+    font-size: 14px;   /* DataTable 专用字体大小 */
+}
+
+#export-btn{
+	background-color: #04AA6D; /* Green */
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+}
+
+.side-title{
+	line-height:100px;
+	font-size: 36px;
+}
+/* 轨道 - 未激活部分 */
+.rc-slider-rail {
+    height: 6px !important;   /* 细长轨道 */
+    background: #e0e0e0 !important;
+    border-radius: 3px;
+}
+
+/* 轨道 - 已激活部分 */
+.rc-slider-track {
+    height: 6px !important;
+    background: linear-gradient(90deg, #2ecc71, #c0392b) !important;
+    border-radius: 3px;
+}
+
+/* 滑块 handle */
+.rc-slider-handle {
+    width: 20px !important;
+    height: 20px !important;
+    border: 2px solid white !important;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25) !important;
+    margin-top: -7px !important; /* 垂直居中 */
+    transform: scale(1);
+}
+
+/* hover 时更亮 */
+.rc-slider-handle:hover {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb) !important;
+    transform: scale(2);
+    transition: all 0.2s ease-in-out;
+}
+
+/* 刻度线 */
+.rc-slider-dot {
+  border: none;
+  background: #111;
+  width: 4px;
+  height: 4px;
+  bottom: -2px;
+}
+
+/* 激活的刻度线 */
+.rc-slider-dot-active {
+  background: #fff;
+}
+
+/* 刻度标签 */
+.rc-slider-mark-text {
+  font-size: 16px;
+  color: #666;
+  margin-top: 6px;
+}
+
+/* 选中的标签 */
+.rc-slider-mark-text-active {
+  color: #111;
+  /*font-weight: bold;*/
+}
